@@ -1,0 +1,67 @@
+#include <stdint.h>
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+
+   int dia;
+int semana;
+
+
+printf("|1| Domingo\n");
+printf("|2| Segunda\n");
+printf("|3| Terca-feira\n");
+printf("|4| Quarta-feira\n");
+printf("|5| Quinta-feira\n");
+printf("|6| Sexta-feira\n");
+printf("|7| Sabado\n");
+
+printf("Digite o dia da semana:\n");
+scanf("%d", &dia);
+
+switch (dia)
+{
+case 1:
+    printf("Domingo\n");
+    printf("Final de semana\n");
+    break;
+case 2:
+    printf("Segunda-feira\n");
+    printf("Dia util\n");
+    break;
+case 3:
+    printf("Terca-feira\n");
+    printf("Dia util\n");
+    break;
+case 4:
+    printf("Quarta-feira\n");
+    printf("Dia util\n");
+    break;
+ case 5:
+    printf("Quinta-feira\n");
+    printf("Dia util\n");
+    break;  
+case 6:
+    printf("Sexta-feira\n");
+    printf("Dia util\n");
+    break;
+case 7:
+    printf("Sabado\n");
+    printf("final de semana\n");
+    break;              
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    return 0;
+}
